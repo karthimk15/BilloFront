@@ -2,8 +2,8 @@
 // Only styling improved.
 
 import React, { useState } from "react";
-import axiosInstance from "/src/api/axios";
-import { excelToJson, generateBulkTemplate } from "/src/utils/excelUtils";
+import axiosInstance from "../../api/axios";
+import { excelToJson, generateBulkTemplate } from "../../utils/excelutils";
 
 const decodeToken = (token) => {
   if (!token) return null;

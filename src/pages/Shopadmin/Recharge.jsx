@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import axiosInstance from "/src/api/axios";
+import axiosInstance from "../../api/axios";
 
 import { Card, CardHeader, CardTitle, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";

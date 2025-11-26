@@ -1,7 +1,7 @@
 // src/pages/Signup.jsx
 import React, { useState, useEffect } from "react";
 import { sendOTP, verifyOTP } from "../api/auth";
-import axiosInstance from "/src/api/axios";
+import axiosInstance from "../api/axios";
 import { HiEye, HiEyeOff } from "react-icons/hi";
 
 import Billo from "../assets/icon/Blogo.jpeg"

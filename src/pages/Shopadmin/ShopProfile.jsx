@@ -1,6 +1,6 @@
 // src/pages/ShopOwner/shopowner-profile.jsx
 import React, { useEffect, useState } from "react";
-import axiosInstance from "/src/api/axios";
+import axiosInstance from "../../api/axios";
 import { useNavigate } from "react-router-dom";
 
 // Decode token utility

@@ -1,7 +1,7 @@
 // src/pages/Shopadmin/shopdashboard.jsx
 
 import React, { useEffect, useState } from "react";
-import api from "/src/api/axios.js"; // your axios.api wrapper
+import api from "../../api/axios.js"; // your axios.api wrapper
 import { jwtDecode } from "jwt-decode";
 import { useNavigate } from "react-router-dom"; 
 const ShopDashboard = () => {

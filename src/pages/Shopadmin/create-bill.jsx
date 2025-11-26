@@ -1,7 +1,7 @@
 // src/pages/Shopadmin/CreateBill.jsx
 import React, { useEffect, useState, useRef } from "react";
 import { ArrowLeft, Plus, Trash2, Eraser } from "lucide-react";
-import axiosInstance from "/src/api/axios";
+import axiosInstance from "../../api/axios";
 import { useNavigate } from "react-router-dom";
 import { getInventoryItems, getShopDetails } from "../../api/createbill"; // optional helper
 

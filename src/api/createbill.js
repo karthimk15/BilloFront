@@ -1,5 +1,5 @@
 //import axios from "axios";
-import axiosInstance from "/src/api/axios";
+import axiosInstance from "../api/axios";
 //const API_BASE = "http://127.0.0.1:800";
 
 export const getInventoryItems = async (shop_id) => {

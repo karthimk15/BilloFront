@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import axiosInstance from "/src/api/axios";
+import axiosInstance from "../../api/axios";
 import { useNavigate } from "react-router-dom";
 import {ArrowLeft} from "lucide-react"
 const decodeToken = (token) => {

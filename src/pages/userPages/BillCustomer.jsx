@@ -1,6 +1,6 @@
 // src/pages/bill-history.jsx
 import React, { useEffect, useState } from "react";
-import axiosInstance from "/src/api/axios.js";
+import axiosInstance from "../../api/axios.js";
 import { Button } from "@/components/ui/button"
 import { FileDown } from "lucide-react"
 export default function BillCustomer() {
