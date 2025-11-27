@@ -22,7 +22,7 @@ const shopIdfromtoken = decoded?.id ?? null;
 
 export default function AddItemInventory() {
   const [singleItem, setSingleItem] = useState({
-    shop_id: shopIdfromtoken,
+    shop_id: decoded.id,
     name: "",
     sku: "",
     barcode: "",
