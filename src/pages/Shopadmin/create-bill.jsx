@@ -459,9 +459,9 @@ export default function CreateBill() {
 
                   {/* DROPDOWN FIXED IMPROVED */}
                   {activeRow === idx && (suggestionsForRow[idx] || []).length > 0 && (
-                    <ul className="absolute left-0 right-0 z-40 bg-white border rounded-xl shadow-lg max-h-72 overflow-y-auto mt-1">
+                    <ul  data-testid="item-suggestion-list" className="absolute left-0 right-0 z-40 bg-white border rounded-xl shadow-lg max-h-72 overflow-y-auto mt-1">
                       {(suggestionsForRow[idx] || []).map((it) => (
-                        <li
+                        <li  data-testid="item-suggestion"
                           key={it.id}
                           onMouseDown={(e) => {
                             e.preventDefault();
